@@ -1,7 +1,7 @@
 let resultInput = parseInt(prompt("Enter you exam results"));
 let resultOutput = document.getElementById("resultOutput");
 
-//========== result count and output condition
+/*========== input exam result and output GPA conditions ==========*/
 if (resultInput <= 100 && resultInput >= 80) {
    resultOutput.innerHTML = "You Result is: A+";
 } else if (resultInput <= 79 && resultInput >= 70) {
